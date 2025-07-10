@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: rgba(214, 221, 237, 1);
+}
 .banner {
   /* background-color: aqua; */
   background-image: url("../Assets/Hero-bg.png");
@@ -62,4 +64,83 @@
   padding: 10px;
   display: block;
   margin: 0 auto;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 116px;
+  margin-bottom: 116px;
+}
+
+.preview-header {
+  font-family: "Raleway";
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  width: 517px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.preview-paragraph {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: "Raleway";
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.preview-button {
+  background-color: rgba(78, 71, 255, 1);
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+}
+
+.preview img {
+  border-radius: 40px;
+  height: 328px;
+  width: 408px;
+}
+
+.stats {
+  background-color: rgba(78, 71, 255, 0.1);
+  margin-bottom: 200px;
+  border-radius: 30px;
+  height: 306px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+
+.stat-title {
+  font-family: "Raleway";
+  font-size: 38px;
+  color: #252432;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 50px;
+}
+
+.metric-details h2 {
+  color: rgba(78, 71, 255, 1);
+  font-family: "Inter";
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.metric-details p {
+  font-size: 20px;
+  font-family: "Inter";
+  color: rgba(0, 0, 0, 0.5);
 }
