@@ -115,6 +115,7 @@ body {
   height: 306px;
   width: 1140px;
   margin: 0 auto;
+  margin-bottom: 130px;
 }
 
 .metrics {
@@ -143,4 +144,63 @@ body {
   font-size: 20px;
   font-family: "Inter";
   color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+
+.contact-form h1 {
+  font-size: 97px;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+
+.contact-form label {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  height: 70px;
+  width: 497px;
+  border-radius: 10px;
+  display: block;
+  padding: 40px;
+  margin-bottom: 15px;
+}
+
+.contact-form textarea {
+  display: block;
+  width: 497px;
+  height: 135px;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-form input::placeholder {
+  font-size: 20px;
+  font-family: "Inter";
+}
+
+.contact-form textarea::placeholder {
+  font-size: 20px;
+  font-family: "Inter";
+}
+
+.contact-form button {
+  background-color: rgba(78, 71, 255, 1);
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 62px;
+  width: 497px;
+  text-align: center;
 }
